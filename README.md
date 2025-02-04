@@ -1,39 +1,10 @@
-# ✨ So you want to run an audit
-
-This `README.md` contains a set of checklists for our audit collaboration. This is your audit repo, which is used for scoping your audit and for providing information to wardens
-
-Some of the checklists in this doc are for our scouts and some of them are for **you as the audit sponsor (⭐️)**.
-
----
-
-# Repo setup
-
-## ⭐️ Sponsor: Add code to this repo
-
-- [ ] Create a PR to this repo with the below changes:
-- [ ] Confirm that this repo is a self-contained repository with working commands that will build (at least) all in-scope contracts, and commands that will run tests producing gas reports for the relevant contracts.
-- [ ] Please have final versions of contracts and documentation added/updated in this repo **no less than 48 business hours prior to audit start time.**
-- [ ] Be prepared for a 🚨code freeze🚨 for the duration of the audit — important because it establishes a level playing field. We want to ensure everyone's looking at the same code, no matter when they look during the audit. (Note: this includes your own repo, since a PR can leak alpha to our wardens!)
-
-## ⭐️ Sponsor: Repo checklist
-
-- [ ] Modify the [Overview](#overview) section of this `README.md` file. Describe how your code is supposed to work with links to any relevant documentation and any other criteria/details that the auditors should keep in mind when reviewing. (Here are two well-constructed examples: [Ajna Protocol](https://github.com/code-423n4/2023-05-ajna) and [Maia DAO Ecosystem](https://github.com/code-423n4/2023-05-maia))
-- [ ] Optional: pre-record a high-level overview of your protocol (not just specific smart contract functions). This saves wardens a lot of time wading through documentation.
-- [ ] Review and confirm the details created by the Scout (technical reviewer) who was assigned to your contest. *Note: any files not listed as "in scope" will be considered out of scope for the purposes of judging, even if the file will be part of the deployed contracts.*  
-
----
-
-# Initia audit details
-- Total Prize Pool: $80000 in USDC
-  - HM awards: $51500 in USDC
-  - (remove this line if there is no Analysis pool) Analysis awards: XXX XXX USDC (Notion: Analysis pool)
-  - QA awards: $2100 in USDC
-  - (remove this line if there is no Bot race) Bot Race awards: XXX XXX USDC (Notion: Bot Race pool)
- 
-  - Judge awards: $6200 in USDC
-  - Validator awards: XXX XXX USDC (Notion: Triage fee - final)
-  - Scout awards: $500 USDC (Notion: Scout fee - but usually $500 USDC)
-  - (this line can be removed if there is no mitigation) Mitigation Review: XXX XXX USDC
+# Initia Cosmos audit details
+- Total Prize Pool: $80,000 in USDC
+  - HM awards: $51,500 in USDC
+  - QA awards: $2,100 in USDC
+  - Judge awards: $6,200 in USDC
+  - Validator awards: $4,200 in USDC
+  - Mitigation Review: $16,000 in USDC
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts February 10, 2025 20:00 UTC
 - Ends February 24, 2025 20:00 UTC
@@ -49,8 +20,6 @@ As such, wardens are encouraged to select the appropriate risk level carefully d
 ## Automated Findings / Publicly Known Issues
 
 The 4naly3er report can be found [here](https://github.com/code-423n4/2025-02-initia/blob/main/4naly3er-report.md).
-
-
 
 _Note for C4 wardens: Anything included in this `Automated Findings / Publicly Known Issues` section is considered a publicly known issue and is ineligible for awards._
 ## 🐺 C4: Begin Gist paste here (and delete this line)
