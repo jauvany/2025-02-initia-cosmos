@@ -23,10 +23,8 @@ The 4naly3er report can be found [here](https://github.com/code-423n4/2025-02-in
 
 _Note for C4 wardens: Anything included in this `Automated Findings / Publicly Known Issues` section is considered a publicly known issue and is ineligible for awards._
 
-## 🐺 C4 team: paste this into the bottom of the sponsor's audit repo `README`, then delete this line
-
 - Already known issue in cosmos-sdk is not target of this audit.
-- In some place, we are raising panic but it is normally okay to ignore. especially it is coming from the https://github.com/cosmos/cosmos-sdk. (x/mstaking, x/gov, x/bank, x/evidence).
+- In some places, we are raising panic but it is normally okay to ignore. especially it is coming from the https://github.com/cosmos/cosmos-sdk. (x/mstaking, x/gov, x/bank, x/evidence).
 - dependency versions are also not target of this audit.
 
 ✅ SCOUTS: Please format the response above 👆 so its not a wall of text and its readable.
