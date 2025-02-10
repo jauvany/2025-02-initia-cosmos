@@ -22,12 +22,8 @@ As such, wardens are encouraged to select the appropriate risk level carefully d
 _Note for C4 wardens: Anything included in this `Automated Findings / Publicly Known Issues` section is considered a publicly known issue and is ineligible for awards._
 
 - Already known issue in cosmos-sdk is not target of this audit.
-- In some places, we are raising panic but it is normally okay to ignore. especially it is coming from the https://github.com/cosmos/cosmos-sdk. (x/mstaking, x/gov, x/bank, x/evidence).
-- dependency versions are also not target of this audit.
-
-# Overview
-
-[ ⭐️ SPONSORS: add info here ]
+- In some places, we are raising panic but it is normally okay to ignore. Especially if it is coming from the https://github.com/cosmos/cosmos-sdk. (x/mstaking, x/gov, x/bank, x/evidence).
+- Dependency versions are also not a target of this audit.
 
 ## Links
 
