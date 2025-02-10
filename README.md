@@ -45,7 +45,7 @@ _Note for C4 wardens: Anything included in this `Automated Findings / Publicly K
 
 **Initia**
 - Source code location: https://github.com/initia-labs/initia/
-- Source code version: [7e74fb02397a541faed07fb3488ad2618808967b5](https://github.com/initia-labs/initia/commit/7e74fb02397a541faed07fb3488ad2618808967b5)
+- Source code version: [e74fb02397a541faed07fb3488ad2618808967b5](https://github.com/initia-labs/initia/commit/e74fb02397a541faed07fb3488ad2618808967b5)
 - Files:
   - x/bank/**
   - x/distribution/**
@@ -68,10 +68,10 @@ _Note for C4 wardens: Anything included in this `Automated Findings / Publicly K
 - Source code location: https://github.com/initia-labs/minievm
 - Source code version: [744563dc6a642f054b4543db008df22664e4c125](https://github.com/initia-labs/minievm/commit/744563dc6a642f054b4543db008df22664e4c125)
 - Files:
- - X
- - Y
- - Z
-
+ - x/evm/**
+ - x/bank/**
+ - jsonrpc/**
+ - indexer/**
 
 ## Main invariants
 
